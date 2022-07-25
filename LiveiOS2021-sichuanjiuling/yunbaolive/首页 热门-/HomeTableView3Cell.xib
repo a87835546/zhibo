@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="105" id="KGk-i7-Jjw" customClass="HomeTableView3Cell">
+            <rect key="frame" x="0.0" y="0.0" width="373" height="105"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="373" height="105"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今日热门" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ygd-e4-ojp">
+                        <rect key="frame" x="10" y="0.0" width="100" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="iUX-M1-jqg"/>
+                            <constraint firstAttribute="height" constant="45" id="ntc-zM-wGy"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="卡塔尔世界杯 六支亚洲队有…" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tcz-IJ-LH5">
+                        <rect key="frame" x="15.5" y="75" width="160.5" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="oFK-uW-UBr"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.36078431370000003" green="0.36078431370000003" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DsC-rD-lRc">
+                        <rect key="frame" x="186" y="45" width="1" height="47"/>
+                        <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="47" id="I3j-8V-yGn"/>
+                            <constraint firstAttribute="width" constant="1" id="sRA-OO-s0T"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="卡塔尔世界杯 六支亚洲队有…" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uau-73-Phs">
+                        <rect key="frame" x="10" y="50" width="166" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="ojq-rv-FiJ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.36078431370000003" green="0.36078431370000003" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="卡塔尔世界杯 六支亚洲队有…" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OgW-Th-vbH">
+                        <rect key="frame" x="197" y="50" width="166" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="s8y-FY-Jrg"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.36078431370000003" green="0.36078431370000003" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="卡塔尔世界杯 六支亚洲队有…" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EeA-UE-3nB">
+                        <rect key="frame" x="197" y="75" width="166" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="jo9-7u-uJk"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.36078431370000003" green="0.36078431370000003" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="DsC-rD-lRc" firstAttribute="leading" secondItem="tcz-IJ-LH5" secondAttribute="trailing" constant="10" id="359-1h-LkB"/>
+                    <constraint firstItem="uau-73-Phs" firstAttribute="top" secondItem="Ygd-e4-ojp" secondAttribute="bottom" constant="5" id="3T6-Xv-0Lx"/>
+                    <constraint firstAttribute="trailing" secondItem="EeA-UE-3nB" secondAttribute="trailing" constant="10" id="4P1-9j-msO"/>
+                    <constraint firstItem="Ygd-e4-ojp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="AwH-XT-AlS"/>
+                    <constraint firstItem="EeA-UE-3nB" firstAttribute="centerY" secondItem="tcz-IJ-LH5" secondAttribute="centerY" id="Jeg-IE-eWO"/>
+                    <constraint firstItem="OgW-Th-vbH" firstAttribute="leading" secondItem="DsC-rD-lRc" secondAttribute="trailing" constant="10" id="RyA-3y-RIa"/>
+                    <constraint firstAttribute="bottom" secondItem="DsC-rD-lRc" secondAttribute="bottom" constant="13" id="Uj8-WJ-BiO"/>
+                    <constraint firstItem="Ygd-e4-ojp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Xno-FF-vfU"/>
+                    <constraint firstItem="EeA-UE-3nB" firstAttribute="leading" secondItem="DsC-rD-lRc" secondAttribute="trailing" constant="10" id="dfz-or-pKM"/>
+                    <constraint firstItem="DsC-rD-lRc" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="f2K-46-251"/>
+                    <constraint firstItem="DsC-rD-lRc" firstAttribute="leading" secondItem="uau-73-Phs" secondAttribute="trailing" constant="10" id="gU1-sw-2RS"/>
+                    <constraint firstItem="uau-73-Phs" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="h8G-9J-6TF"/>
+                    <constraint firstItem="OgW-Th-vbH" firstAttribute="centerY" secondItem="uau-73-Phs" secondAttribute="centerY" id="hc9-c9-qpC"/>
+                    <constraint firstAttribute="trailing" secondItem="OgW-Th-vbH" secondAttribute="trailing" constant="10" id="rOX-8F-IKK"/>
+                    <constraint firstItem="DsC-rD-lRc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="45" id="thA-WD-wEQ"/>
+                    <constraint firstItem="tcz-IJ-LH5" firstAttribute="top" secondItem="uau-73-Phs" secondAttribute="bottom" constant="5" id="uVX-cK-fTn"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <point key="canvasLocation" x="176.08695652173915" y="134.26339285714286"/>
+        </tableViewCell>
+    </objects>
+</document>

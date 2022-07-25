@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="default" indentationWidth="10" rowHeight="218" id="KGk-i7-Jjw" customClass="HomeTableView5Cell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="325"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="325"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今日热门" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Hr-I9-Hif">
+                        <rect key="frame" x="10" y="0.0" width="61.5" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="Oqd-hu-JnA"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Jt-OA-eyd">
+                        <rect key="frame" x="0.0" y="45" width="320" height="280"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="280" id="2Wa-9Z-8hH"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="9Jt-OA-eyd" secondAttribute="trailing" id="7Zm-Xt-7IX"/>
+                    <constraint firstAttribute="bottom" secondItem="9Jt-OA-eyd" secondAttribute="bottom" id="Rka-IL-YRS"/>
+                    <constraint firstItem="9Jt-OA-eyd" firstAttribute="top" secondItem="0Hr-I9-Hif" secondAttribute="bottom" id="eOo-z7-vHZ"/>
+                    <constraint firstItem="9Jt-OA-eyd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="if7-nM-X4k"/>
+                    <constraint firstItem="0Hr-I9-Hif" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="kCr-xj-Aek"/>
+                    <constraint firstItem="0Hr-I9-Hif" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="p3g-kK-MhW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bottomView" destination="9Jt-OA-eyd" id="Igo-iB-qSQ"/>
+                <outlet property="titleLabel" destination="0Hr-I9-Hif" id="Wiu-Pl-J8e"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="171.76339285714286"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
